@@ -45,7 +45,8 @@ const LearningWordCard = ({
       ? word?.text === answer
       : word[nativeLang]?.text === answer;
 
-  const isLastWord = currentWordCount + 1 === Number(settings.count);
+  const isLastWord = currentWordCount + 1 === 10;
+
   const userWords = dictionaries?.find(dict => dict.lang === dictId).words;
   const isUserWord = userWords.some(w => w._id === word._id);
 

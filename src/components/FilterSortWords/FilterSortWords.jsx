@@ -33,7 +33,7 @@ const FilterSortWords = ({ setSettings, settings }) => {
           <Select
             classNamePrefix="custom-select"
             options={typeOptions}
-            placeholder={t('words-page.sort-alphabet')}
+            placeholder={t('words-page.sort-progress')}
             onChange={option =>
               setSettings({ ...settings, type: option.value })
             }
