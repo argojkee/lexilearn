@@ -36,11 +36,6 @@ export const App = () => {
   }, [i18n, lang]);
 
   return (
-    // <Suspense
-    //   fallback={
-    //     <div style={{ textAlign: 'center', fontSize: '50px' }}>Загрузка...</div>
-    //   }
-    // >
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<PublicRoute component={MainPage} />} />
