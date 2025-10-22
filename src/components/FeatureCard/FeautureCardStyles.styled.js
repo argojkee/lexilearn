@@ -22,6 +22,7 @@ export const FeautureCardStyles = styled.li`
     color: grey;
     font-style: italic;
   }
+
   @media screen and (max-width: 767px) {
     width: 100%;
     height: 150px;
@@ -64,5 +65,25 @@ export const FeautureCardStyles = styled.li`
 
   @media screen and (min-width: 1200px) {
     width: calc((100% - 40px) / 3);
+  }
+
+  @media screen and (min-width: 1200px) {
+    position: relative;
+    overflow: hidden;
+
+    .overlay {
+      position: absolute;
+      left: 12px;
+      top: 55%;
+      transition: 250ms linear;
+    }
+
+    &:hover {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+    }
+
+    &:hover .overlay {
+      top: 12px;
+    }
   }
 `;

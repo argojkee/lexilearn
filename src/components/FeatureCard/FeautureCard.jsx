@@ -5,11 +5,13 @@ const FeautureCard = ({ icon: Icon, title, description }) => {
   const { t } = useTranslation();
   return (
     <FeautureCardStyles>
-      <div className="icon-container">
-        <Icon />
+      <div className="overlay">
+        <div className="icon-container">
+          <Icon />
+        </div>
+        <h3>{t(title)}</h3>
+        <p>{t(description)}</p>
       </div>
-      <h3>{t(title)}</h3>
-      <p>{t(description)}</p>
     </FeautureCardStyles>
   );
 };
