@@ -1,0 +1,171 @@
+{
+  "general": {
+    "sign-in-btn": "Giriş yap",
+    "register-btn": "Kayıt Ol",
+    "log-out-btn": "Çıkış",
+    "progress": "ilerleme",
+    "total": "toplam",
+    "in-progress": "devam ediyor",
+    "words": "kelimeler",
+    "lelearnedadred": "öğrenildi",
+    "back-link": "Geri",
+    "word": "kelime",
+    "repetitions": "Tekrarlar"
+  },
+  "landing": {
+    "title": "Akıllı kelime öğrenimiyle yeni dillerde ustalaşın",
+    "title-description": "Kendi sözlüklerinizi oluşturun, aralıklı tekrarlarla pratik yapın ve yeni dilleri öğrenirken ilerlemenizi takip edin.",
+    "free-btn": "Ücretsiz başlayın",
+    "create-btn": "İlk sözlüğünüzü oluşturun",
+    "cards": {
+      "first": {
+        "title": "Kişisel Sözlükler",
+        "description": "Herhangi bir dil çifti için özel sözlükler oluşturun ve öğrenmek istediğiniz kelimeleri ekleyin."
+      },
+      "second": {
+        "title": "Akıllı Pratik",
+        "description": "Rastgele kelimelerle pratik yapın ve tekrar tabanlı öğrenmeyle ilerlemenizi takip edin."
+      },
+      "third": {
+        "title": "Çoklu Dil Desteği",
+        "description": "Her biri için ayrı sözlüklerle birden fazla dili aynı anda öğrenin."
+      },
+      "fourth": {
+        "title": "İlerleme Takibi",
+        "description": "Tekrarlama hedefleri belirleyin ve kelimelerin 'devam ediyor' durumundan 'öğrenildi' durumuna geçişini izleyin."
+      },
+      "fiveth": {
+        "title": "Esnek Öğrenme",
+        "description": "Yerel dilden hedefe veya hedef dilden yerel dile çeviri modları arasında seçim yapın."
+      },
+      "sixth": {
+        "title": "Kelime Yönetimi",
+        "description": "Kelimelerinizi yeniden öğrenme veya çıkarma seçenekleriyle kelime dağarcığınızı kolayca yönetin."
+      }
+    },
+    "motivation-title": "Öğrenmeye hazır mısınız?",
+    "motivation-description": "LexiLearn ile kelime dağarcığını geliştiren binlerce dil öğrencisine katılın."
+  },
+  "registration-login-page": {
+    "reg-title": "Hesabınızı oluşturun",
+    "reg-description": "Bugün kelime dağarcığınızı oluşturmaya başlayın",
+    "login-description": "Dil öğrenme yolculuğunuza devam etmek için oturum açın",
+    "login-title": "Tekrar hoş geldiniz",
+    "attention": "*Güvenlik nedeniyle e-posta doğrulamasını devre dışı bıraktık. Bu, uygulamanın beta sürümüdür, bu nedenle lütfen hassas kişisel bilgilerinizi girmeyin.",
+    "name": "Ad",
+    "email": "E-posta",
+    "password": "Şifre",
+    "language": "Dil",
+    "language-placeholder": "Dilinizi seçin",
+    "link-to-reg-text": "Hesabınız yok mu?",
+    "link-to-login-text": "Zaten bir hesabınız var mı?",
+    "link-to-reg": "Kaydolun",
+    "button-reg": "Hesap oluşturmak",
+    "errors": {
+      "name-min": "Alan adı en az 6 karakterden oluşmalıdır",
+      "name-max": "Alan adı en fazla 16 karakterden oluşmalıdır",
+      "name-required": "Alan adı gereklidir",
+      "email-valid": "E-posta adresi geçerli olmalıdır",
+      "email-required": "Alan e-posta adresi gereklidir",
+      "password-min": "Şifre en az 6 karakterden oluşmalıdır",
+      "password-max": "Şifre en fazla 16 karakterden oluşmalıdır",
+      "password-required": "Alan şifresi gereklidir",
+      "language-one-of": "Dil, desteklenen dillerden biri olmalıdır",
+      "language-required": "Alan dili gereklidir"
+    }
+  },
+  "home-page": {
+    "greet": "Tekrar hoş geldiniz,",
+    "sub-title": "Dil öğrenme yolculuğunuza devam edin",
+    "dictionaries": "Sözlükler",
+    "suggestions-btn": "Herhangi bir öneriniz var mı?",
+    "your-dicts": "Sözlükleriniz",
+    "add-dict-btn": "Sözlük ekleyin",
+    "empty-list-first-part": "Henüz çalışmak için sözlük eklemediniz. Lütfen",
+    "add": "yeni",
+    "empty-list-second-part": "kelimeler öğrenmeye başlamak için lütfen ekleyin."
+  },
+  "dict-page": {
+    "completed": "tamamlandı",
+    "start-title": "Öğrenmeye başla",
+    "start-sub-title": "Kelimelerle pratik yap",
+    "start-description": "Rastgele kelimelerle bir öğrenme seansına başla veya pratik yapmak için belirli kelimeleri seç",
+    "learned-description": "Öğrendiğin kelimeleri gözden geçir ve isteğe bağlı olarak tekrar pratik yap",
+    "progress-description": "Şu anda öğrenmekte olduğun kelimeleri yönet. Çalışmak istemediğin kelimeleri kaldır",
+    "add-title": "Yeni kelime ekle",
+    "add-subtitle": "Yeni kelimeler ekleyerek kelime dağarcığını genişlet veya pratik yapmak için belirli kelimeleri seç",
+    "add-description": "Yeni kelimeler 0 tekrarla 'Devam Ediyor' durumuna başlayacak",
+    "add-btn": "Kelime ekle",
+    "cancel-btn": "İptal",
+    "select-lang": "Dil seç",
+    "translate-btn": "Çevir",
+    "beta-title": "Bu beta sürümüdür",
+    "beta-subtitle": "Kelime veritabanı hala geliştirilmektedir. Uygulamayı test etmek için kullanabileceğiniz kelimelerin listesi:"
+  },
+
+  "word-info": {
+    "synonyms": "Eş anlamlılar",
+    "antonyms": "Zıt anlamlılar",
+    "examples": "Örnekler",
+    "translation": "Çeviri"
+  },
+  "words-page": {
+    "empty-list-learned": "Henüz öğrendiğiniz bir kelime yok",
+    "empty-list-progress": "Öğrenilecek bir kelimeniz yok. Öğrenmeye başlamak için ekleyin Filtrenize uygun bir kelimeniz yok",
+    "empty-filtered-list": "Filtrenize uygun bir kelimeniz yok",
+    "filter": "Filtrenizi girin",
+    "sort-progress": "İlerleme",
+    "sort-alphabet": "Alfabe",
+    "sort-up": "Yukarı",
+    "sort-down": "Aşağı",
+    "words-progress-title": "Çalışma Aşamasındaki Kelimeler",
+    "words-learned-title": "Öğrenilen Kelimeler"
+  },
+  "learning-page": {
+    "title": "Öğrenme modu",
+    "see": "Bak",
+    "word-type": "Yaz, kelime",
+    "translation": "çeviri",
+    "select-mode": "Modu seç",
+    "random-words": "Rastgele kelimeler",
+    "dict-words": "Sözlüğümden kelimeler",
+    "start-btn": "Başla",
+    "attention": "*Çalışmak için gereken sayıda kelimeyi (en az 10) eklemeden kelime modunuzu seçemezsiniz",
+    "score": "Puan",
+    "translation-placeholder": "Çeviriyi gir",
+    "check-answer-btn": "Cevabı kontrol et",
+    "next-btn": "Sonraki",
+    "more-info-btn": "Daha fazla bilgi",
+    "user-answer": "Cevabınız",
+    "correct-answer": "Doğru cevap",
+    "correct": "Doğru",
+    "incorrect": "Yanlış",
+    "end-btn": "Son"
+  },
+
+  "modals": {
+    "suggestion": {
+      "title": "Dilek ve önerilerinizi buraya bırakabilirsiniz",
+      "title-input": "Başlık",
+      "description": "Açıklama",
+      "send-btn": "Gönder",
+      "errors": {
+        "title-min": "Alan başlığı en az 6 karakterden oluşmalıdır",
+        "title-max": "Alan başlığı en fazla 24 karakterden oluşmalıdır",
+        "title-req": "Alan başlığı gereklidir",
+        "description-min": "Alan açıklaması en az 12 karakterden oluşmalıdır",
+        "description-max": "Alan açıklaması en fazla 200 karakterden oluşmalıdır",
+        "description-req": "Alan açıklaması gereklidir",
+        "feedback-thx": "Geri bildiriminiz için teşekkür ederiz",
+        "oops": "Hata! Bir sorun oluştu. Lütfen tekrar deneyin"
+      }
+    },
+    "add-dict": {
+      "title": "Yeni sözlük ekle",
+      "description": "Öğrenmek için yeni bir sözlük oluşturmak üzere bir hedef dil seçin",
+      "lang-label": "Hedef dil",
+      "lang-placeholder": "Dil seç",
+      "create-btn": "Sözlük oluştur"
+    }
+  }
+}

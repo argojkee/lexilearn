@@ -1,0 +1,171 @@
+{
+  "general": {
+    "sign-in-btn": "Se connecter",
+    "register-btn": "S'inscrire",
+    "log-out-btn": "Déconnexion",
+    "progress": "progression",
+    "total": "total",
+    "in-progress": "en cours",
+    "words": "mots",
+    "learned": "appris",
+    "back-link": "Retour",
+    "word": "mot",
+    "repetitions": "Répétitions"
+  },
+  "landing": {
+    "title": "Maîtrisez de nouvelles langues grâce à un apprentissage intelligent du vocabulaire",
+    "title-description": "Créez vos propres dictionnaires, pratiquez avec des répétitions espacées et suivez vos progrès à mesure que vous apprenez de nouvelles langues.",
+    "free-btn": "Commencez gratuitement",
+    "create-btn": "Créez votre premier dictionnaire",
+    "cards": {
+      "first": {
+        "title": "Dictionnaires personnels",
+        "description": "Créez des dictionnaires personnalisés pour n'importe quelle paire de langues et ajoutez les mots que vous souhaitez apprendre."
+      },
+      "second": {
+        "title": "Pratique intelligente",
+        "description": "Entraînez-vous avec des mots aléatoires et suivez vos progrès grâce à l'apprentissage par la répétition."
+      },
+      "third": {
+        "title": "Prise en charge multilingue",
+        "description": "Apprenez plusieurs langues simultanément grâce à des dictionnaires dédiés à chacune d'elles."
+      },
+      "fourth": {
+        "title": "Suivi des progrès",
+        "description": "Fixez-vous des objectifs de répétition et observez les mots passer du statut « en cours » au statut « appris »."
+      },
+      "fiveth": {
+        "title": "Apprentissage flexible",
+        "description": "Choisissez entre les modes de traduction natif vers cible ou cible vers natif."
+      },
+      "sixth": {
+        "title": "Gestion des mots",
+        "description": "Gérez facilement votre vocabulaire grâce aux options permettant de réapprendre ou de supprimer des mots."
+      }
+    },
+    "motivation-title": "Prêt à commencer à apprendre ?",
+    "motivation-description": "Rejoignez des milliers d'apprenants en langues qui enrichissent leur vocabulaire avec LexiLearn."
+  },
+  "registration-login-page": {
+    "reg-title": "Créez votre compte",
+    "reg-description": "Commencez à enrichir votre vocabulaire dès aujourd'hui",
+    "login-title": "Bienvenue !",
+    "login-description": "Connectez-vous pour poursuivre votre apprentissage des langues.",
+    "attention": "*Nous avons désactivé la vérification par e-mail pour des raisons de sécurité. L'application étant en version bêta, veuillez ne pas saisir d'informations personnelles sensibles.",
+    "name": "Nom",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "language": "Langue",
+    "language-placeholder": "Sélectionnez votre langue",
+    "link-to-reg-text": "Vous n'avez pas de compte ?",
+    "link-to-login-text": "Vous avez déjà un compte ?",
+    "link-to-reg": "Inscrivez-vous",
+    "button-reg": "Créer un compte",
+    "errors": {
+      "name-min": "Le nom du champ doit comporter au moins 6 symboles",
+      "name-max": "Le nom du champ doit comporter au maximum 16 symboles",
+      "name-required": "Le nom du champ est obligatoire",
+      "email-valid": "L'adresse e-mail doit être valide",
+      "email-required": "L'adresse e-mail du champ est obligatoire",
+      "password-min": "Le mot de passe doit comporter au moins 6 symboles",
+      "password-max": "Le mot de passe doit comporter au maximum 16 symboles",
+      "password-required": "Le mot de passe du champ est obligatoire",
+      "language-one-of": "La langue doit être prise en charge",
+      "language-required": "La langue du champ est obligatoire"
+    }
+  },
+  "home-page": {
+    "greet": "Bienvenue,",
+    "sub-title": "Poursuivez votre apprentissage des langues",
+    "dictionaries": "Dictionnaires",
+    "suggestions-btn": "Des suggestions ?",
+    "your-dicts": "Vos dictionnaires",
+    "add-dict-btn": "Ajouter un dictionnaire",
+    "empty-list-first-part": "Vous n'avez pas encore ajouté de dictionnaires à étudier. Veuillez les",
+    "add": "ajouter",
+    "empty-list-second-part": "pour commencer à apprendre de nouveaux mots."
+  },
+  "dict-page": {
+    "completed": "terminé",
+    "start-title": "Commencer à apprendre",
+    "start-sub-title": "S'entraîner avec des mots",
+    "start-description": "Commencez une session d'apprentissage avec des mots aléatoires ou choisissez des mots spécifiques à pratiquer",
+    "learned-description": "Révisez les mots que vous maîtrisez et, si vous le souhaitez, remettez-les en pratique",
+    "progress-description": "Gérez les mots que vous apprenez actuellement. Supprimez les mots que vous ne souhaitez pas étudier",
+    "add-title": "Ajouter un nouveau mot",
+    "add-subtitle": "Élargissez votre vocabulaire en ajoutant de nouveaux mots ou en choisissant des mots spécifiques à pratiquer",
+    "add-description": "Les nouveaux mots commenceront avec le statut « En cours » et ne comporteront aucune répétition",
+    "add-btn": "Ajouter un mot",
+    "cancel-btn": "Annuler",
+    "select-lang": "Sélectionner la langue",
+    "translate-btn": "Traduire",
+    "beta-title": "Ceci est une version bêta",
+    "beta-subtitle": "La base de données de mots est encore en cours de développement. Voici une liste de mots que vous pouvez utiliser pour tester l'application :"
+  },
+
+  "word-info": {
+    "synonyms": "Synonymes",
+    "antonyms": "Antonymes",
+    "examples": "Exemples",
+    "translation": "Traduction"
+  },
+  "words-page": {
+    "empty-list-learned": "Vous n'avez pas encore de mots appris",
+    "empty-list-progress": "Vous n'avez pas de mots à apprendre. Ajoutez-les pour commencer à apprendre",
+    "empty-filtered-list": "Vous n'avez aucun mot correspondant à votre filtre",
+    "filter": "Saisissez votre filtre",
+    "sort-progress": "Progression",
+    "sort-alphabet": "Alphabet",
+    "sort-up": "Haut",
+    "sort-down": "Bas",
+    "words-progress-title": "Mots en cours",
+    "words-learned-title": "Mots appris"
+  },
+  "learning-page": {
+    "title": "Mode d'apprentissage",
+    "see": "Voir",
+    "word-type": "mot, écrire",
+    "translation": "traduction",
+    "select-mode": "Sélectionner le mode",
+    "random-words": "Mots aléatoires",
+    "dict-words": "Mots de mon dictionnaire",
+    "start-btn": "Démarrer",
+    "attention": "*Vous ne pouvez pas sélectionner votre mode de vocabulaire tant que vous n'avez pas ajouté le nombre requis de mots à étudier (minimum 10)",
+    "score": "Score",
+    "translation-placeholder": "Saisir la traduction",
+    "check-answer-btn": "Vérifier la réponse",
+    "next-btn": "Suivant",
+    "more-info-btn": "Plus d'infos",
+    "user-answer": "Votre réponse",
+    "correct-answer": "Bonne réponse",
+    "correct": "Correcte",
+    "incorrect": "Incorrecte",
+    "end-btn": "Fin"
+  },
+
+  "modals": {
+    "suggestion": {
+      "title": "Laissez ici vos souhaits et suggestions",
+      "title-input": "Titre",
+      "description": "Description",
+      "send-btn": "Envoyer",
+      "errors": {
+        "title-min": "Le titre du champ doit comporter au moins 6 symboles",
+        "title-max": "Le titre du champ doit comporter au maximum 24 symboles",
+        "title-req": "Le titre du champ est obligatoire",
+        "description-min": "La description du champ doit comporter au moins 12 symboles",
+        "description-max": "La description du champ doit comporter au maximum 200 symboles",
+        "description-req": "La description du champ est obligatoire",
+        "feedback-thx": "Merci pour votre retour",
+        "oops": "Oups, une erreur s'est produite. Veuillez réessayer"
+      }
+    },
+    "add-dict": {
+      "title": "Ajouter un nouveau dictionnaire",
+      "description": "Sélectionnez une langue cible pour créer un nouveau dictionnaire d'apprentissage",
+      "lang-label": "Langue cible",
+      "lang-placeholder": "Sélectionnez la langue",
+      "create-btn": "Créer un dictionnaire"
+    }
+  }
+}

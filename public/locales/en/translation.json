@@ -1,0 +1,172 @@
+{
+  "general": {
+    "sign-in-btn": "Sign in",
+    "register-btn": "Register",
+    "log-out-btn": "Log out",
+    "progress": "progress",
+    "total": "total",
+    "in-progress": "in progress",
+    "words": "words",
+    "learned": "learned",
+    "back-link": "Back",
+    "word": "word",
+    "repetitions": "Repetitions"
+  },
+
+  "landing": {
+    "title": "Master new languages with smart vocabulary learning",
+    "title-description": "Build your own dictionaries, practice with spaced repetition, and track your progress as you learn new languages.",
+    "free-btn": "Get started free",
+    "create-btn": "Create your first dictionary",
+    "cards": {
+      "first": {
+        "title": "Personal Dicrionaries",
+        "description": "Create custom dictionaries for any language pair and add words you want to learn."
+      },
+      "second": {
+        "title": "Smart Practice",
+        "description": "Practice with randomized words and track your progress with repetition-based learning."
+      },
+      "third": {
+        "title": "Multi-Language Support",
+        "description": "Learn multiple languages simultaneously with separate dictionaries for each."
+      },
+      "fourth": {
+        "title": "Progress Tracking",
+        "description": "Set repetition goals and watch words move from 'in progress' to 'learned' status."
+      },
+      "fiveth": {
+        "title": "Flexible Learning",
+        "description": "Choose between native-to-target or target-to-native translation modes."
+      },
+      "sixth": {
+        "title": "Word Management",
+        "description": "Easily manage your vocabulary with options to relearn or remove words."
+      }
+    },
+    "motivation-title": "Ready to start learning?",
+    "motivation-description": "Join thousands of language learners who are building their vocabulary with LexiLearn."
+  },
+  "registration-login-page": {
+    "reg-title": "Create your account",
+    "reg-description": "Start building your vocabulary today",
+    "login-title": "Welcome back",
+    "login-description": "Sign in to continue your language learning journey",
+    "attention": "*We've disabled email verification for security reasons. This is a beta version of the app, so please do not enter any sensitive personal information.",
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "language": "Language",
+    "language-placeholder": "Select your language",
+    "link-to-reg-text": "Don't have an account? ",
+    "link-to-login-text": "Already have an account?",
+    "link-to-reg": "Sign up",
+    "button-reg": "Create account",
+    "errors": {
+      "name-min": "Field name must be 6 symbols minimum",
+      "name-max": "Field name must be 16 symbols maximum",
+      "name-required": "Field name is required",
+      "email-valid": "Email must be valid",
+      "email-required": "Field email is required",
+      "password-min": "Password must be 6 symbols minimum",
+      "password-max": "Password must be 16 symbols maximum",
+      "password-required": "Field password is required",
+      "language-one-of": "Language must be one of the supported languages",
+      "language-required": "Field language is required"
+    }
+  },
+  "home-page": {
+    "greet": "Welcome back,",
+    "sub-title": "Continue your language learning journey",
+    "dictionaries": "Dictionaries",
+    "suggestions-btn": "Any suggestions?",
+    "your-dicts": "Your dictionaries",
+    "add-dict-btn": "Add dictionary",
+    "empty-list-first-part": "You haven't added any dictionaries to study yet. Please",
+    "add": "add",
+    "empty-list-second-part": "them to start learning new words."
+  },
+  "dict-page": {
+    "completed": "completed",
+    "start-title": "Start learning",
+    "start-sub-title": "Practice with words",
+    "start-description": "Begin a learning session with random words or choose specific ones to practice",
+    "learned-description": "Review words you've mastered and optionally move them back to practice",
+    "progress-description": "Manage words you're currently learning. Remove words you don't want to study",
+    "add-title": "Add new word",
+    "add-subtitle": "Expand your vocabulary by adding new words or choose soecific ones to practice",
+    "add-description": "New words will start 'In progress' status with 0 repetitions",
+    "add-btn": "Add word",
+    "cancel-btn": "Cancel",
+    "select-lang": "Select language",
+    "translate-btn": "Translate",
+    "beta-title": "This is beta version",
+    "beta-subtitle": "The word database is still being developed. Here's a list of words you can use to test the app:"
+  },
+
+  "word-info": {
+    "synonyms": "Synonyms",
+    "antonyms": "Antonyms",
+    "examples": "Examples",
+    "translation": "Translation"
+  },
+  "words-page": {
+    "empty-list-learned": "You don't have any learned words yet",
+    "empty-list-progress": "You don't have any words to learn. Add them to start learning",
+    "empty-filtered-list": "You haven't any words by your filter",
+    "filter": "Enter your filter",
+    "sort-progress": "Progress",
+    "sort-alphabet": "Alphabet",
+    "sort-up": "Up",
+    "sort-down": "Down",
+    "words-progress-title": "Words in progress",
+    "words-learned-title": "Learned words"
+  },
+  "learning-page": {
+    "title": "Learning mode",
+    "see": "See",
+    "word-type": "word, type",
+    "translation": "translation",
+    "select-mode": "Select mode",
+    "random-words": "Random words",
+    "dict-words": "Words from my dictionary",
+    "start-btn": "Start",
+    "attention": "*You cannot select your word mode until you add the required number of words to study (minimum 10)",
+    "score": "Score",
+    "translation-placeholder": "Enter translation",
+    "check-answer-btn": "Check answer",
+    "next-btn": "Next",
+    "more-info-btn": "More info",
+    "user-answer": "Your answer",
+    "correct-answer": "Correct answer",
+    "correct": "Correct",
+    "incorrect": "Incorrect",
+    "end-btn": "End"
+  },
+
+  "modals": {
+    "suggestion": {
+      "title": "Here you can leave your wishes and suggestions",
+      "title-input": "Title",
+      "description": "Description",
+      "send-btn": "Send",
+      "errors": {
+        "title-min": "Field title must be 6 symbols minimum",
+        "title-max": "Field title must be 24 symbols maximum",
+        "title-req": "Field title is required",
+        "description-min": "Field description must be 12 symbols minimum",
+        "description-max": "Field description must be 200 symbols maximum",
+        "description-req": "Field description is required",
+        "feedback-thx": "Thank you for your feedback",
+        "oops": "Oops, something went wrong. Please, try again"
+      }
+    },
+    "add-dict": {
+      "title": "Add new dictionary",
+      "description": "Select a target language to create a new dictionary for learning",
+      "lang-label": "Target language",
+      "lang-placeholder": "Select language",
+      "create-btn": "Create dictionary"
+    }
+  }
+}
