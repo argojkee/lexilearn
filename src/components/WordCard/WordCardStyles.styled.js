@@ -57,15 +57,6 @@ export const WordCardStyles = styled.li`
     margin-bottom: 12px;
   }
 
-  .progress-bar > div {
-    background-color: ${({ $percentage }) => {
-      if ($percentage < 25) return 'red';
-      if ($percentage < 50) return 'orange';
-      if ($percentage < 75) return 'yellow';
-      if ($percentage < 100) return 'green';
-    }};
-  }
-
   .percentage {
     text-align: center;
   }

@@ -17,7 +17,7 @@ const RepetitionsProgressWord = ({ id }) => {
 
   const percentage = getPercentage(memoryStatus, currentWord.repeatCount);
   return (
-    <RepetitionsProgressWordStyles>
+    <RepetitionsProgressWordStyles $percentage={percentage}>
       <div className="progress-text">
         <p>
           {t('general.repetitions')}: {currentWord.repeatCount}
@@ -26,7 +26,7 @@ const RepetitionsProgressWord = ({ id }) => {
           {t('general.progress')}: {percentage}%
         </p>
       </div>
-      <ProgressBar percentage={percentage} />
+      <ProgressBar percentage={percentage} isColored={true} />
     </RepetitionsProgressWordStyles>
   );
 };

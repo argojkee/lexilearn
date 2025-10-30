@@ -55,7 +55,7 @@ const WordCard = ({ word, page }) => {
             {repeatCount}/{memoryStatus}
           </p>
         </div>
-        <ProgressBar percentage={percentage} />
+        <ProgressBar percentage={percentage} isColored={true} />
         <p className="percentage">{percentage}%</p>
       </div>
     </WordCardStyles>
