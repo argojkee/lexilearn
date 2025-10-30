@@ -11,7 +11,6 @@ const initialState = {
     dictionaries: [],
   },
   token: null,
-  isLoading: false,
 };
 
 const userSlice = createSlice({
