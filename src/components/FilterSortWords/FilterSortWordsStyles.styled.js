@@ -22,8 +22,6 @@ export const FilterSortWordsStyles = styled.section`
     cursor: pointer;
   }
 
- 
-
   .custom-select__menu-list {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -47,9 +45,21 @@ export const FilterSortWordsStyles = styled.section`
     .form {
       column-gap: 4px;
     }
+  }
 
+  @media screen and (max-width: 400px) {
     .custom-select__indicator {
       padding: 0;
+    }
+  }
+
+  @media screen and (min-width: 400px) {
+    .custom-select__control {
+      min-width: 130px;
+    }
+
+    .custom-select__indicator {
+      padding: 2px;
     }
   }
 
@@ -64,11 +74,10 @@ export const FilterSortWordsStyles = styled.section`
       cursor: pointer;
       font-size: 14px;
       padding: 0px;
-      min-width: 120px;
     }
 
-     .custom-select__option:hover:not(.custom-select__option--is-selected) {
-    background-color: rgba(155, 155, 155, 0.4);
-  }
+    .custom-select__option:hover:not(.custom-select__option--is-selected) {
+      background-color: rgba(155, 155, 155, 0.4);
+    }
   }
 `;
