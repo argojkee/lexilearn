@@ -33,8 +33,7 @@ const SuggestionModal = ({ toggleModal }) => {
   async function onSubmitPress({ title, description }) {
     setIsLoading(true);
     try {
-      const data = await axios.post('/feedback', { title, description });
-      console.log(data);
+      await axios.post('/feedback', { title, description });
       toastSuccess(t('modals.suggestion.errors.feedback-thx'));
       toggleModal(false);
     } catch (error) {
