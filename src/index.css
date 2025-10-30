@@ -28,6 +28,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+main {
+  padding-bottom: 15px;
+}
+
 a {
   text-decoration: none;
   color: black;
