@@ -26,8 +26,10 @@ export const AnsweredWordCardStyles = styled.div`
     background-color: transparent;
     cursor: pointer;
     transition: 250ms linear;
+  }
 
-    &:hover {
+  @media screen and (min-width: 768px) {
+    .action-btn:hover {
       transform: scale(1.25);
     }
   }

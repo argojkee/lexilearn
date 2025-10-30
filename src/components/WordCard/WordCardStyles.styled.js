@@ -36,14 +36,6 @@ export const WordCardStyles = styled.li`
     padding: 4px;
     transition: 250ms linear;
     cursor: pointer;
-
-    &:hover {
-      background-color: white;
-      transform: scale(1.2);
-      color: ${({ $page }) => ($page === 'in-progress' ? 'red' : 'orange')};
-      border-color: ${({ $page }) =>
-        $page === 'in-progress' ? 'red' : 'orange'};
-    }
   }
 
   .repeat-container {
@@ -88,6 +80,16 @@ export const WordCardStyles = styled.li`
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     width: calc((100% - 40px) / 3);
+  }
+
+  @media screen and (min-width: 768px) {
+    button:hover {
+      background-color: white;
+      transform: scale(1.2);
+      color: ${({ $page }) => ($page === 'in-progress' ? 'red' : 'orange')};
+      border-color: ${({ $page }) =>
+        $page === 'in-progress' ? 'red' : 'orange'};
+    }
   }
 
   @media screen and (min-width: 1199px) {

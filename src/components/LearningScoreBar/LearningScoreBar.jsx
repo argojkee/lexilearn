@@ -12,12 +12,15 @@ const LearningScoreBar = ({ currentProgress, total, score, isAnswered }) => {
   return (
     <LearningScorebarStyles>
       <Container>
-        <p>
-          {t('general.progress')}: {current} / {total}
-        </p>
-        <p>
-          {t('learning-page.score')}: {score} / {current}
-        </p>
+        <div>
+          <p>
+            {t('general.progress')}: {current} / {total}
+          </p>
+          <p>
+            {t('learning-page.score')}: {score} / {current}
+          </p>
+        </div>
+
         <ProgressBar percentage={percentage} />
       </Container>
     </LearningScorebarStyles>

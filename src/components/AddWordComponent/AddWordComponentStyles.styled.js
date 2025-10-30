@@ -32,11 +32,6 @@ export const AddWordComponentStyles = styled.section`
     border-radius: 12px;
     padding: 8px 12px;
 
-    &:not(:disabled):hover {
-      background-color: rgba(150, 150, 150, 0.4);
-      color: black;
-    }
-
     &:disabled {
       background-color: grey;
       color: black;
@@ -61,6 +56,11 @@ export const AddWordComponentStyles = styled.section`
   @media screen and (min-width: 768px) {
     .title-container {
       justify-content: space-between;
+    }
+
+    .open-form-btn:hover {
+      background-color: rgba(150, 150, 150, 0.4);
+      color: black;
     }
   }
 `;

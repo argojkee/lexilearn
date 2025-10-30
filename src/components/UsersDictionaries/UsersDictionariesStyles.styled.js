@@ -17,11 +17,6 @@ export const UsersDictionariesStyles = styled.section`
     padding: 4px 8px;
     border-radius: 12px;
     transition: 250ms linear;
-
-    &:hover {
-      background-color: rgba(155, 155, 155, 0.4);
-      color: black;
-    }
   }
 
   ul {
@@ -66,5 +61,10 @@ export const UsersDictionariesStyles = styled.section`
 
   @media screen and (min-width: 768px) {
     margin-top: 40px;
+
+    .add-dict-modal:hover {
+      background-color: rgba(155, 155, 155, 0.4);
+      color: black;
+    }
   }
 `;

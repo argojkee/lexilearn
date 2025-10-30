@@ -22,9 +22,7 @@ export const FilterSortWordsStyles = styled.section`
     cursor: pointer;
   }
 
-  .custom-select__option:hover:not(.custom-select__option--is-selected) {
-    background-color: rgba(155, 155, 155, 0.4);
-  }
+ 
 
   .custom-select__menu-list {
     padding-top: 0 !important;
@@ -68,5 +66,9 @@ export const FilterSortWordsStyles = styled.section`
       padding: 0px;
       min-width: 120px;
     }
+
+     .custom-select__option:hover:not(.custom-select__option--is-selected) {
+    background-color: rgba(155, 155, 155, 0.4);
+  }
   }
 `;

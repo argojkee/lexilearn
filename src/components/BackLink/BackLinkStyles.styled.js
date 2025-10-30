@@ -11,7 +11,10 @@ export const BackLinkStyles = styled(Link)`
   border-radius: 12px;
   padding: 4px 8px;
   transition: 250ms linear;
-  &:hover {
+
+  @media screen and (min-width:768px) {
+    &:hover {
     background-color: rgba(150, 150, 150, 0.2);
+  }
   }
 `;

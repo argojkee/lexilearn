@@ -25,7 +25,7 @@ export const FeautureCardStyles = styled.li`
 
   @media screen and (max-width: 767px) {
     width: 100%;
-    height: 150px;
+    height: 200px;
     .icon-container {
       width: 32px;
       height: 32px;

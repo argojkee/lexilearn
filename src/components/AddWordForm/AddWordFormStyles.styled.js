@@ -37,9 +37,7 @@ export const AddWordFormStyles = styled.form`
     cursor: pointer;
   }
 
-  .custom-select__option:hover:not(.custom-select__option--is-selected) {
-    background-color: rgba(155, 155, 155, 0.4);
-  }
+ 
 
   .custom-select__menu-list {
     padding-top: 0 !important;
@@ -63,10 +61,6 @@ export const AddWordFormStyles = styled.form`
     transition: 250ms linear;
     border-radius: 12px;
     padding: 8px 12px;
-    &:not(:disabled):hover {
-      background-color: rgba(150, 150, 150, 0.4);
-      color: black;
-    }
 
     &:disabled {
       background-color: rgba(150, 150, 150, 0.6);
@@ -103,5 +97,14 @@ export const AddWordFormStyles = styled.form`
     .custom-select__control {
       min-width: 200px;
     }
+
+    button:not(:disabled):hover {
+      background-color: rgba(150, 150, 150, 0.4);
+      color: black;
+    }
+
+     .custom-select__option:hover:not(.custom-select__option--is-selected) {
+    background-color: rgba(155, 155, 155, 0.4);
+  }
   }
 `;

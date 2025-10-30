@@ -7,9 +7,6 @@ export const DictionaryCardStyles = styled.li`
   transition: 250ms linear;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 
-  &:hover {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
-  }
   a {
     display: block;
     width: 100%;
@@ -75,14 +72,19 @@ export const DictionaryCardStyles = styled.li`
     align-items: center;
     transition: 250ms linear;
     cursor: pointer;
-
-    &:hover {
-      transform: scale(1.2);
-    }
   }
 
   @media screen and (max-width: 767px) {
     width: 100%;
+  }
+
+  @media screen and (min-width: 768px) {
+    &:hover {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+    }
+    button:hover {
+      transform: scale(1.2);
+    }
   }
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {

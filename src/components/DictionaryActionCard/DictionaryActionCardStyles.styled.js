@@ -8,9 +8,6 @@ export const DictionaryActionCardStyles = styled.li`
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
   transition: 250ms linear;
 
-  &:hover {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
-  }
   .title-container {
     display: flex;
     align-items: center;
@@ -47,5 +44,8 @@ export const DictionaryActionCardStyles = styled.li`
 
   @media screen and (min-width: 768px) {
     width: calc((100% - 40px) / 3);
+    &:hover {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+    }
   }
 `;

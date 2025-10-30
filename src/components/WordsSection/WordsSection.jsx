@@ -15,7 +15,6 @@ const WordsSection = ({ settings }) => {
     useSelector(getCurrentUser);
   const { dictId } = useParams();
 
-  // t('words-page.')
   const emptyMessage =
     currentPage === 'in-progress'
       ? t('words-page.empty-list-progress')

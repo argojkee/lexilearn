@@ -54,8 +54,10 @@ export const SuggestionModalStyles = styled.div`
     cursor: pointer;
     transition: 250ms linear;
     margin-top: 8px;
+  }
 
-    &:hover {
+  @media screen and (min-width: 768px) {
+    button:hover {
       background-color: white;
       color: black;
     }

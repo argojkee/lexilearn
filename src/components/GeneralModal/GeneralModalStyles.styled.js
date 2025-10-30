@@ -35,12 +35,6 @@ export const GeneralModalStyles = styled.div`
     > svg {
       transition: 250ms linear;
     }
-
-    &:hover {
-      > svg {
-        color: grey;
-      }
-    }
   }
 
   @media screen and (max-width: 399px) {
@@ -51,6 +45,15 @@ export const GeneralModalStyles = styled.div`
   @media screen and (min-width: 400px) {
     .modal {
       width: 400px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .exit-btn:hover {
+      > svg {
+        color: grey;
+        transform: scale(1.2);
+      }
     }
   }
 `;

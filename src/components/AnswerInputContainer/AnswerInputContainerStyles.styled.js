@@ -25,13 +25,15 @@ export const AnswerInputContainerStyles = styled.div`
     transition: 250ms linear;
     cursor: pointer;
 
-    &:not(:disabled):hover {
-      background-color: rgba(150, 150, 150, 0.3);
-      color: black;
-    }
-
     &:disabled {
       background-color: grey;
+    }
+  }
+
+  @media screen and (min-width:768px) {
+    .check-btn:not(:disabled):hover {
+      background-color: rgba(150, 150, 150, 0.3);
+      color: black;
     }
   }
 `;

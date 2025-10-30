@@ -38,19 +38,8 @@ export const LearningModeFormStyles = styled.section`
     padding-bottom: 0 !important;
   }
 
-  .custom-select__option:hover:not(.custom-select__option--is-selected):not(
-      .custom-select__option--is-disabled
-    ) {
-    background-color: rgba(155, 155, 155, 0.4);
-  }
-
   .custom-select__option--is-selected {
     background-color: rgba(155, 155, 155, 0.8);
-    color: white;
-  }
-
-  .custom-select__option:hover:not(.custom-select__option--is-disabled) {
-    background-color: rgba(155, 155, 155, 0.4);
     color: white;
   }
 
@@ -75,11 +64,6 @@ export const LearningModeFormStyles = styled.section`
     &:disabled {
       background-color: rgba(150, 150, 150, 0.7);
     }
-
-    &:not(:disabled):hover {
-      background-color: white;
-      color: black;
-    }
   }
 
   @media screen and (max-width: 767px) {
@@ -94,6 +78,7 @@ export const LearningModeFormStyles = styled.section`
     color: grey;
     font-size: 12px;
   }
+
   @media screen and (min-width: 768px) {
     margin-top: 40px;
 
@@ -101,6 +86,22 @@ export const LearningModeFormStyles = styled.section`
       width: 768px;
       margin-left: auto;
       margin-right: auto;
+    }
+
+    button:not(:disabled):hover {
+      background-color: white;
+      color: black;
+    }
+
+    .custom-select__option:hover:not(.custom-select__option--is-disabled) {
+      background-color: rgba(155, 155, 155, 0.4);
+      color: white;
+    }
+
+    .custom-select__option:hover:not(.custom-select__option--is-selected):not(
+        .custom-select__option--is-disabled
+      ) {
+      background-color: rgba(155, 155, 155, 0.4);
     }
   }
 `;

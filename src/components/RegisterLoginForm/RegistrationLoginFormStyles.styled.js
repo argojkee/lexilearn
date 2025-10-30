@@ -44,10 +44,6 @@ export const RegistrationLoginFormStyles = styled(Form)`
     cursor: pointer;
   }
 
-  .custom-select__option:hover:not(.custom-select__option--is-selected) {
-    background-color: rgba(155, 155, 155, 0.4);
-  }
-
   .custom-select__menu-list {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -96,11 +92,6 @@ export const RegistrationLoginFormStyles = styled(Form)`
     padding-top: 8px;
     padding-bottom: 8px;
     transition: 250ms linear;
-
-    &:hover {
-      background-color: rgba(150, 150, 150, 0.2);
-      color: black;
-    }
   }
 
   .select-page {
@@ -113,11 +104,6 @@ export const RegistrationLoginFormStyles = styled(Form)`
     color: black;
     text-decoration: none;
     transition: 250ms linear;
-
-    &:hover {
-      color: blue;
-      text-decoration: underline;
-    }
   }
   @media screen and (max-width: 399px) {
     width: 100%;
@@ -127,5 +113,21 @@ export const RegistrationLoginFormStyles = styled(Form)`
     width: 400px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  @media screen and (min-width: 768px) {
+    .text-link:hover {
+      color: blue;
+      text-decoration: underline;
+    }
+
+    .custom-select__option:hover:not(.custom-select__option--is-selected) {
+      background-color: rgba(155, 155, 155, 0.4);
+    }
+
+    .sbmt-btn:hover {
+      background-color: rgba(150, 150, 150, 0.2);
+      color: black;
+    }
   }
 `;

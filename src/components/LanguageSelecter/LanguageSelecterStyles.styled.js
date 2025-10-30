@@ -11,10 +11,6 @@ export const LanguageSelecterStyles = styled(Select)`
     box-shadow: none;
     transition: all 0.2s ease;
     background-color: transparent;
-
-    &:hover {
-      border-color: #888;
-    }
   }
 
   .custom-select__value-container {
@@ -51,10 +47,6 @@ export const LanguageSelecterStyles = styled(Select)`
     align-items: center;
     padding: 6px;
     cursor: pointer;
-
-    &:hover {
-      background-color: #f3f3f3;
-    }
   }
 
   .custom-select__option--is-selected {
@@ -98,6 +90,16 @@ export const LanguageSelecterStyles = styled(Select)`
 
     .custom-select__menu {
       width: 48px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .custom-select-option:hover {
+      background-color: #f3f3f3;
+    }
+
+    .custom-select-control:hover {
+      border-color: #888;
     }
   }
 `;

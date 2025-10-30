@@ -23,10 +23,7 @@ export const DeleteDictionaryModalStyles = styled.div`
     color: white;
     border: 1px solid black;
 
-    &:hover {
-      background-color: rgba(150, 150, 150, 0.2);
-      color: black;
-    }
+    
   }
 
   .accept-btn {
@@ -34,11 +31,6 @@ export const DeleteDictionaryModalStyles = styled.div`
     border-color: red;
     background-color: white;
     border: 1px solid red;
-
-    &:hover {
-      background-color: red;
-      color: white;
-    }
   }
 
   @media screen and (max-width: 767px) {
@@ -57,6 +49,16 @@ export const DeleteDictionaryModalStyles = styled.div`
     }
     button {
       padding: 8px 40px;
+    }
+
+    .cancel-btn:hover {
+      background-color: rgba(150, 150, 150, 0.2);
+      color: black;
+    }
+
+    .accept-btn:hover {
+      background-color: red;
+      color: white;
     }
   }
 `;

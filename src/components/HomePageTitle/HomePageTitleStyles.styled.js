@@ -14,10 +14,6 @@ export const HomePageTitleStyles = styled.section`
     border: 1px solid black;
     cursor: pointer;
     transition: 250ms linear;
-    &:hover {
-      background-color: white;
-      color: black;
-    }
   }
 
   span {
@@ -48,6 +44,11 @@ export const HomePageTitleStyles = styled.section`
 
     button {
       padding: 8px 12px;
+    }
+
+    button:hover {
+      background-color: white;
+      color: black;
     }
   }
 `;

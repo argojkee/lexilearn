@@ -9,7 +9,7 @@ import { capitalizeFirstChar } from 'functions/capitalizeFirstChar';
 import { useTranslation } from 'react-i18next';
 
 const WordMoreInfo = ({ word, toggleAdding, page }) => {
-  const { nativeLang } = useSelector(getCurrentUser);
+  const { nativeLang, dictionaries } = useSelector(getCurrentUser);
   const [isAdding, setIsAdding] = useState(false);
   const dispatch = useDispatch();
   const { dictId } = useParams();
@@ -21,6 +21,11 @@ const WordMoreInfo = ({ word, toggleAdding, page }) => {
     setIsAdding(false);
     toggleAdding(false);
   }
+
+  const isUserWord = dictionaries
+    ?.find(dict => dict.lang === dictId)
+    .words.some(userWord => userWord._id === word._id);
+
   return (
     <WordMoreInfoStyles>
       <div>
@@ -51,7 +56,7 @@ const WordMoreInfo = ({ word, toggleAdding, page }) => {
 
         <span>{word?.examples.join(' ')} </span>
       </div>
-      {page === 'dictionary' && (
+      {page === 'dictionary' && !isUserWord && (
         <button className="add-btn" type="button" onClick={onAddPress}>
           {isAdding ? (
             <LoaderCircle size={20} className="spinner" />

@@ -22,10 +22,6 @@ export const WordMoreInfoStyles = styled.div`
     border-radius: 12px;
     cursor: pointer;
     transition: 250ms linear;
-
-    &:hover {
-      transform: scale(1.2);
-    }
   }
 
   @media screen and (min-width: 768px) {
@@ -35,6 +31,10 @@ export const WordMoreInfoStyles = styled.div`
       display: flex;
       justify-content: center;
       align-items: center;
+    }
+
+    button:hover {
+      transform: scale(1.2);
     }
   }
 

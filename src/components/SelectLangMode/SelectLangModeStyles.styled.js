@@ -12,8 +12,10 @@ export const SelectLangModeStyles = styled.div`
   transition: 250 linear;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 
-  &:hover {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  @media screen and (min-width: 768px) {
+    &:hover {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    }
   }
 
   .description {

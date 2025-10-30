@@ -28,10 +28,6 @@ export const AddDictionaryFormStyles = styled.div`
     cursor: pointer;
   }
 
-  .custom-select__option:hover:not(.custom-select__option--is-selected) {
-    background-color: rgba(155, 155, 155, 0.4);
-  }
-
   .custom-select__menu-list {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -62,9 +58,16 @@ export const AddDictionaryFormStyles = styled.div`
       background-color: grey;
       border-color: grey;
     }
-    &:not(:disabled):hover {
+  }
+
+  @media screen and (min-width: 768px) {
+    button:not(:disabled):hover {
       background-color: white;
       color: black;
+    }
+
+    .custom-select__option:hover:not(.custom-select__option--is-selected) {
+      background-color: rgba(155, 155, 155, 0.4);
     }
   }
 `;

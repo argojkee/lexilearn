@@ -45,11 +45,6 @@ export const LearningWordCardStyles = styled.section`
     transition: 250ms linear;
     cursor: pointer;
 
-    &:not(:disabled):hover {
-      background-color: rgba(150, 150, 150, 0.3);
-      color: black;
-    }
-
     &:disabled {
       background-color: grey;
     }
@@ -92,6 +87,11 @@ export const LearningWordCardStyles = styled.section`
     }
     .next-btn {
       margin-left: auto;
+    }
+
+    .btn-container > button:not(:disabled):hover {
+      background-color: rgba(150, 150, 150, 0.3);
+      color: black;
     }
   }
 `;

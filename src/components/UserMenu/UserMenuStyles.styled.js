@@ -32,11 +32,6 @@ export const UserMenuStyles = styled.div`
     column-gap: 4px;
     cursor: pointer;
     transition: 250ms linear;
-
-    &:hover {
-      background-color: rgba(150, 150, 150, 0.4);
-      color: black;
-    }
   }
 
   @media screen and (max-width: 400px) {
@@ -57,6 +52,13 @@ export const UserMenuStyles = styled.div`
     .user-info > svg {
       width: 16px;
       height: 16px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    button:hover {
+      background-color: rgba(150, 150, 150, 0.4);
+      color: black;
     }
   }
 `;

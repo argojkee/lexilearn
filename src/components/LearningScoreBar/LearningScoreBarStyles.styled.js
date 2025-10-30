@@ -7,6 +7,12 @@ export const LearningScorebarStyles = styled.section`
     margin-bottom: 8px;
     text-transform: capitalize;
   }
+
+  .container > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   @media screen and (max-width: 767px) {
     margin-top: 20px;
   }
