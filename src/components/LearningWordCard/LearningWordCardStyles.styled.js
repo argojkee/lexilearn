@@ -27,10 +27,9 @@ export const LearningWordCardStyles = styled.section`
     font-weight: bold;
   }
 
-  h3
-  /* span {
-    text-transform: capitalize;
-  } */
+  .more-info-btn {
+    margin-bottom: 12px;
+  }
 
   .btn-container {
     margin-top: 12px;

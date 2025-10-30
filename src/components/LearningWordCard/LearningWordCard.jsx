@@ -114,6 +114,7 @@ const LearningWordCard = ({
             {!isShowMoreInfo && (
               <button
                 type="button"
+                className='more-info-btn'
                 onClick={() => setIsShowMoreInfo(!isShowMoreInfo)}
               >
                 {t('learning-page.more-info-btn')}
