@@ -14,6 +14,8 @@ const DictionaryPage = () => {
   const currentDict = dictionaries?.find(dict => dict.lang === dictId);
 
   useEffect(() => {
+    console.log(dictId);
+
     if (dictionaries && !dictionaries.some(dict => dict.lang === dictId))
       navigate('/');
     // eslint-disable-next-line
