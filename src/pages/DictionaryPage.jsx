@@ -15,7 +15,7 @@ const DictionaryPage = () => {
 
   useEffect(() => {
     console.log(dictId);
-    if (!dictionaries || dictionaries?.length === 0) return;
+    if (!dictionaries) return;
 
     if (!dictionaries.some(dict => dict.lang === dictId)) navigate('/');
   }, [dictId, dictionaries, navigate]);
