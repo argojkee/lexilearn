@@ -18,8 +18,7 @@ const DictionaryPage = () => {
     if (!dictionaries || dictionaries?.length === 0) return;
 
     if (!dictionaries.some(dict => dict.lang === dictId)) navigate('/');
-    // eslint-disable-next-line
-  }, []);
+  }, [dictId, dictionaries, navigate]);
 
   const currentWords = currentDict?.words;
   const stats = useMemo(() => {
